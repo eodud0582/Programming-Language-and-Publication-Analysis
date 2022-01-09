@@ -248,9 +248,11 @@ book_df[get_outlier(book_df['price'])]['page_num'].value_counts().index
 
 ![image](https://user-images.githubusercontent.com/38115693/148679651-8658681a-ac56-431e-90be-5d50bf6d4934.png)
 
-- 만약 출판사별로 페이지 수를 이용한 가격 예측을 진행한다면, 가격을 보다 잘 예측 할 수 있을 것 같다.
+- 만약 출판사별로, 페이지 수를 이용한 가격 예측을 진행한다면, 가격을 보다 잘 예측 할 수 있을 것 같다.
 
 **도서 페이지 수 데이터로 도서 가격 예측**
+
+우선 전체 데이터에서 페이지 수 데이터를 사용하여 가격 예측을 진행해 보았다. 
 
 ```python
 # 회귀 모델 구성을 위한 데이터 나누기
@@ -293,7 +295,7 @@ plt.show();
 ```
 ![image](https://user-images.githubusercontent.com/38115693/148679905-32650768-5c8b-43c2-9765-b79142887d54.png)
 
-그리고 특정 출판사에 대한 예측을 진행한 결과는 아래와 같다.
+다음으로, 특정 출판사에 대한 예측을 진행한 결과는 아래와 같다.
 
 ![image](https://user-images.githubusercontent.com/38115693/148679960-c42bc9f5-6f55-40aa-9a9e-b59e4c749699.png)
 
