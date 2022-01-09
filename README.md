@@ -210,9 +210,9 @@ result_book_data['page_num'] = page_num_col
 - 페이지 수와 가격 회귀분석 진행
 - 페이지 수로 가격 예측 진행
 
-**페이지 수와 가격 관계 분석 (회귀분석)**
+![image](https://user-images.githubusercontent.com/38115693/148680893-bdc0c107-ce46-49f4-9d5e-e1a14c0db565.png)
 
-![image](https://user-images.githubusercontent.com/38115693/148679813-87804a4b-5cfd-4658-9ca2-45746e250f0a.png)
+**페이지 수와 가격 관계 분석 (회귀분석)**
 
 ```python
 # IQR 기반 이상치 검출
