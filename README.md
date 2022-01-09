@@ -2,7 +2,7 @@
 
 ## 분석 배경 및 목적
 
-![image](https://user-images.githubusercontent.com/38115693/148681112-aebc67a2-9a0f-48dc-a849-8d03bdb1000c.png)
+![image](https://user-images.githubusercontent.com/38115693/148681399-b48049f8-a068-4419-8d72-0654860f9479.png)
 
 - TIOBE라는 소프트웨어 코드 품질을 관리하는 회사에서 주기적으로 발표하는 컴퓨터 언어 순위가 있는데, 이를 많은 사람들이 인용하면서 TIOBE Index라고도 부른다.
 - 순위는 지속적으로 업데이트 되는데, 최근의 발표에 따르면 가장 인기있는 언어는 Python이라고 한다. 보다 하드웨어 친화적이고 빌드 후 실행시 효율이 높은 언어인 C는 2위, C의 상위 버전으로 인식되는 C++은 4위이고, 통계 전용 언어에서 데이터사이언스의 부각으로 각광받았지만 Python의 부상으로 인기가 조금 하락한 R도 12위에 있다.
@@ -15,7 +15,7 @@
 
 **수집 방법**
 
-![image](https://user-images.githubusercontent.com/38115693/148681280-4aeb37ea-29ec-452b-9b2f-dbf1365a9fb4.png)
+![image](https://user-images.githubusercontent.com/38115693/148681336-dac48171-b13d-48c4-a2dc-606b5f3b3ca3.png)
 
 - 네이버 Open API를 활용하여 도서 데이터 크롤링(https://developers.naver.com/docs/search/book/)
 
